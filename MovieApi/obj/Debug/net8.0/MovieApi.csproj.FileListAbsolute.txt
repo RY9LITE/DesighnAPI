@@ -111,3 +111,5 @@ C:\Users\nepst\Desktop\GenerateRandNum_hac\Product_programming_frendzona_499\Mov
 C:\Users\nepst\Desktop\GenerateRandNum_hac\Product_programming_frendzona_499\MovieApi\MovieApi\obj\Debug\net8.0\MovieApi.pdb
 C:\Users\nepst\Desktop\GenerateRandNum_hac\Product_programming_frendzona_499\MovieApi\MovieApi\obj\Debug\net8.0\MovieApi.genruntimeconfig.cache
 C:\Users\nepst\Desktop\GenerateRandNum_hac\Product_programming_frendzona_499\MovieApi\MovieApi\obj\Debug\net8.0\ref\MovieApi.dll
+C:\Users\nepst\Desktop\GenerateRandNum_hac\Product_programming_frendzona_499\MovieApi\MovieApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\nepst\Desktop\GenerateRandNum_hac\Product_programming_frendzona_499\MovieApi\MovieApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
