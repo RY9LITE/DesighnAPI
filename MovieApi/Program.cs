@@ -1,4 +1,6 @@
 using MovieApi.Data;
+using MovieApi.Repositories;
+using MovieApi.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace MovieApi
@@ -10,8 +12,13 @@ namespace MovieApi
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllers();
+
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(
+                    builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddScoped<IGenreRepository, GenreRepository>();
+            builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
